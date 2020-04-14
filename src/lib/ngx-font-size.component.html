@@ -1,0 +1,13 @@
+<div #fontSizeContainer class="fontSizeIcons" [style.color]="this.iconColor">
+  <div [ngClass]="{'selected': selectedFont==='lg'}" (click)="toggleFontIcon('lg')">
+    A
+  </div>
+
+  <div [ngClass]="{'selected': selectedFont==='md'}" (click)="toggleFontIcon('md')">
+    A
+  </div>
+
+  <div [ngClass]="{'selected': selectedFont==='sm'}" (click)="toggleFontIcon('sm')">
+    A
+  </div>
+</div>

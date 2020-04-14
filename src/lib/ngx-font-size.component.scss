@@ -1,0 +1,22 @@
+$iconColor: var(--icon-color);
+$selectedColor: var(--selected-color);
+$font-size: var(--font-size);
+
+* {
+    font-size: $font-size;
+}
+
+.fontSizeIcons {
+    display: flex;
+    align-items: space-between;
+    cursor: pointer;
+}
+
+.fontSizeIcons > div {
+    margin-right: 1.5px;
+    margin-left: 1.5px;
+}
+
+.selected {
+    color: $selectedColor;
+}
