@@ -1,6 +1,6 @@
 {
     "name": "ngx-font-size",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "scripts": {
         "build": "ng build ngx-font-size",
         "build:release": "ng build ngx-font-size --prod",
@@ -12,6 +12,7 @@
         "start": "ng serve",
         "test": "ng test"
     },
+    "main": "src/public-api.ts",
     "repository": {
         "type": "git",
         "url": "https://www.github.com/wadie/ngx-font-size"
