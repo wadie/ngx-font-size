@@ -1,6 +1,6 @@
 # ngx-font-size [![npm version](http://img.shields.io/npm/v/ngx-font-size.svg)](https://npmjs.org/package/ngx-font-size) [![StackBlitz](https://img.shields.io/badge/stackblitz-online-orange.svg)](https://stackblitz.com/edit/ngx-font-size)
 
-> an Angular component for toggling between 3 different font sizes throughout the app.  
+> An Angular component for web accessibility that allows the visitor to toggle between font sizes on the app. 
 
 ## Available options
 
