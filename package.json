@@ -1,6 +1,6 @@
 {
     "name": "ngx-font-size",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "scripts": {
         "build": "ng build ngx-font-size",
         "build:release": "ng build ngx-font-size --prod",
