@@ -54,13 +54,13 @@ Once the library is imported, you can use its component in your Angular applicat
 <h1>
   {{title}}
 </h1>
-<lib-ngx-font-size
+<ngx-font-size
     [iconColor]=iconColor
     [selectedColor]="'#247AFD'"
     [lgSize]="'1.15rem'"
     [mdSize]="'1.05rem'"
     [smSize]="'15px'"
-></lib-ngx-font-size>
+></ngx-font-size>
 ```
 
 [StackBlitz Demo](https://stackblitz.com/edit/ngx-font-size)

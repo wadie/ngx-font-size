@@ -1,7 +1,7 @@
 import { Component, Input, ViewEncapsulation, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'lib-ngx-font-size',
+    selector: 'ngx-font-size',
     templateUrl: './ngx-font-size.component.html',
     styleUrls: ['./ngx-font-size.component.scss'],
     encapsulation: ViewEncapsulation.None
