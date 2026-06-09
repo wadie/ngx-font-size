@@ -1,6 +1,10 @@
 name: npm-publish
 on: push
 
+permissions:
+  contents: read
+  id-token: write # required for npm Trusted Publishing (OIDC)
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -10,8 +14,8 @@ jobs:
         with:
           node-version: 22
           registry-url: https://registry.npmjs.org
+      # Trusted Publishing requires npm >= 11.5.1; Node 22 ships an older npm.
+      - run: npm install -g npm@latest
       - run: npm install
       - run: npm run build:release
-      - run: npm publish dist/
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm publish ./dist
