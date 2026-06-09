@@ -3,4 +3,3 @@
  */
 
 export * from './lib/ngx-font-size.component';
-export * from './lib/ngx-font-size.module';
