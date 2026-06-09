@@ -22,40 +22,34 @@ $ npm install ngx-font-size --save
 
 ## Usage
 
-From your Angular `AppModule`:
+`NgxFontSizeComponent` is a standalone component. Import it directly into whichever
+component (or `NgModule`) needs it:
 
 ```typescript
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
+import { Component } from '@angular/core';
 
 // Import the library
-import { NgxFontSizeModule } from 'ngx-font-size';
+import { NgxFontSizeComponent } from 'ngx-font-size';
 
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
+@Component({
+  selector: 'app-root',
   imports: [
-    BrowserModule,
-    NgxFontSizeModule // <-- Add this line
+    NgxFontSizeComponent // <-- Add this line
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  templateUrl: './app.component.html'
 })
-export class AppModule { }
+export class AppComponent { }
 ```
 
-Once the library is imported, you can use its component in your Angular application:
+Once the component is imported, you can use it in your Angular application:
 
-```xml
+```html
 <!-- You can now use NgxFontSize component in app.component.html -->
 <h1>
   {{title}}
 </h1>
 <ngx-font-size
-    [iconColor]=iconColor
+    [iconColor]="iconColor"
     [selectedColor]="'#247AFD'"
     [lgSize]="'1.15rem'"
     [mdSize]="'1.05rem'"
