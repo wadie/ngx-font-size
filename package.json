@@ -27,7 +27,7 @@
     "url": "https://www.github.com/wadie/ngx-font-size/issues"
   },
   "peerDependencies": {
-    "@angular/core": "^22.0.0"
+    "@angular/core": "^22.0.1"
   },
   "dependencies": {
     "tslib": "^2.3.0"
@@ -37,7 +37,7 @@
     "@angular/cli": "^22.0.0",
     "@angular/compiler": "^22.0.0",
     "@angular/compiler-cli": "^22.0.0",
-    "@angular/core": "^22.0.0",
+    "@angular/core": "^22.0.1",
     "ng-packagr": "^22.0.0",
     "typescript": "~6.0.3"
   }
